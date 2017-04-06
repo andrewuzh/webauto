@@ -36,7 +36,7 @@ public class LoginSearch3 {
 
         Thread.sleep(2000);
         search(driver, " ");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         driver.close();
 
     }
