@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Tests" verbose="1">
+
+    <test name="Chrome_Tests">
+
+        <classes>
+            <class name="LoginTest" />
+            <class name="LoginFailed" />
+            <class name="Logout" />
+            <class name="LoginTest2" />
+            <class name="LoginFailed2" />
+            <class name="Logout2" />
+            <class name="RutorSearch" />
+            <class name="RutorSearch1" />
+            <class name="RutorSearchNeg" />
+
+        </classes>
+    </test>
+</suite>
